@@ -90,7 +90,7 @@ t.description = params['description']
 We're taking the description of the todo and assigning the new content from the form to the todo.
 
 ```ruby
-t.pomodoro_estimate = params['pomodoro-estimate']
+t.pomodoro_estimate = params['pomodoro_estimate']
 
 ```
 We're taking the pomodoro_estimate of the todo and assigning the new value from the form to the todo.
